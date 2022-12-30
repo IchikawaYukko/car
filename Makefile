@@ -1,4 +1,7 @@
 #==========================================
+#    Makefile: makefile for car 1.00
+#
+# Original Copyright:
 #    Makefile: makefile for sl 5.1
 #	Copyright 1993, 1998, 2014
 #                 Toyoda Masashi
@@ -6,15 +9,15 @@
 #	Last Modified: 2014/03/31
 #==========================================
 
-CC=gcc
+CC=cc
 CFLAGS=-O -Wall
 
-all: sl
+all: car
 
-sl: sl.c sl.h
-	$(CC) $(CFLAGS) -o sl sl.c -lncurses
+car: car.c car.h
+	$(CC) $(CFLAGS) -o car car.c -lncurses
 
 clean:
-	rm -f sl
+	rm -f car
 
 distclean: clean

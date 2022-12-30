@@ -1,0 +1,36 @@
+.\"
+.\"  Original Copyright:
+.\"  Copyright 1993,2014 Toyoda Masashi.
+.\"		         (mtoyoda@acm.org)
+.\"	car.1
+.\"	@(#)sl.1
+.\"
+.TH CAR 1 "December 31, 2022"
+.SH 名称
+car \- キータイプを矯正します。
+.SH 形式
+.B car
+[
+.B \-u
+]
+[
+.I "file ..."
+]
+.SH 解説
+.B car
+は、高度に発展した、キータイプ矯正を目的とするアニメーションプログラムです。
+.PP
+次のようなオプションがあります。
+.TP
+.B \-u
+(無視されます。)
+.PP
+.SH 関連事項
+.BR cat (1)
+.SH バグ
+ファイルの連結、表示がなされることがあります。
+.SH 著者
+KusaReMKN (https://github.com/KusaReMKN)
+.PP
+オリジナルの SL:
+豊田 正史 (mtoyoda@acm.org)
