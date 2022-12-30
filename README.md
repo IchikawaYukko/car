@@ -9,3 +9,5 @@ This is forked from [sl by mtoyoda](https://github.com/mtoyoda/sl).
 
 Original Copyright:
 sl Copyright 1993,1998,2014 Toyoda Masashi (mtoyoda@acm.org)
+
+https://user-images.githubusercontent.com/48670724/210084622-d1d2fe16-4bd7-4814-b50a-c907bfd18f3d.mp4
