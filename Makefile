@@ -11,13 +11,20 @@
 
 CC=cc
 CFLAGS=-O -Wall
+RPMBUILD=rpmbuild
 
 all: car
 
 car: car.c car.h
 	$(CC) $(CFLAGS) -o car car.c -lncurses
 
+rpm: car car.spec
+	# * rpmbuild --sign requires 'rpm-sign' package installed.
+	echo pwd=$(pwd)
+	export SRC_ROOT=$(shell pwd) && $(RPMBUILD) -D "_topdir $(shell pwd)/rpmbuild" -D "_commit_id $(shell git log -1 --oneline|cut -b -7)" -ba car.spec --sign
+
 clean:
 	rm -f car
+	rm -rf rpmbuild/
 
 distclean: clean

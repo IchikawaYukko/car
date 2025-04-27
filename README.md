@@ -20,3 +20,9 @@ For instance, on Ubuntu, `libncurses-dev` is required.
 ```console
 $ sudo apt install libncurses-dev
 ```
+
+For instance, on RHEL, `ncurses-devel` is required.
+
+```console
+$ sudo dnf install ncurses-devel
+```

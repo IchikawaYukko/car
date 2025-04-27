@@ -15,3 +15,9 @@ sl Copyright 1993,1998,2014 Toyoda Masashi (mtoyoda@acm.org)
 ```console
 $ sudo apt install libncurses-dev
 ```
+
+RHEL では `ncurses-devel` をインストールする必要があります。
+
+```console
+$ sudo dnf install ncurses-devel
+```
