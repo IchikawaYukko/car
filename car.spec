@@ -11,6 +11,7 @@ Packager: IchikawaYukko
 BuildArch: x86_64
 BuildRequires: ncurses-devel >= 5.9
 Source: %{name}-%{version}-%{release}.src.tar.gz
+Prefix: /usr
 
 
 %description
