@@ -40,6 +40,7 @@ Original Copyright: sl Copyright 1993,1998,2014 Toyoda Masashi (mtoyoda@acm.org)
 mkdir -p %{buildroot}/usr/bin/
 mkdir -p %{buildroot}/usr/share/man/man1
 mkdir -p %{buildroot}/usr/share/man/ja/man1
+mkdir -p %{_sourcedir}
 
 #echo "SRC_ROOT = $SRC_ROOT"
 cp $SRC_ROOT/car %{buildroot}/usr/bin
