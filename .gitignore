@@ -1,2 +1,4 @@
 /car
 rpmbuild/
+debbuild/
+*.deb

@@ -1,0 +1,13 @@
+Package: car
+Version: 1.0.0
+Architecture: amd64
+Maintainer: KusaReMKN <mkn@kusaremkn.com>
+Uploaders: yude <i@yude.jp>
+Multi-Arch: allowed
+Depends: ncurses-base
+Priority: optional
+Homepage: https://github.com/kusaremkn/car
+Description: Cure your bad habit of mistyping
+  Cars run across your terminal when you type "car" as
+  you meant to type "cat". It's just a joke command, and not useful at
+  all.
